@@ -23,7 +23,7 @@ Most inputs are processed in the browser. Favorites, recent tools, saved UTM pre
 
 ## GitHub Pages deployment
 
-The `Deploy GitHub Pages` workflow switches Pages to workflow publishing, builds the site for this repository's `/tools/` project path, and publishes the `dist/` directory. Pushes to `main` then build and deploy automatically; the generated `404.html` keeps tool URLs working on refresh. If the workflow cannot change the Pages source, set it to **GitHub Actions** under repository Settings → Pages once.
+Before the first deployment, set the source under repository Settings → Pages to **GitHub Actions**. The `Deploy GitHub Pages` workflow then builds the site for this repository's `/tools/` project path and publishes the `dist/` directory on each push to `main`; the generated `404.html` keeps tool URLs working on refresh.
 
 ## Cloudflare Pages deployment
 
