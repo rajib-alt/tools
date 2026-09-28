@@ -23,7 +23,7 @@ Most inputs are processed in the browser. Favorites, recent tools, saved UTM pre
 
 ## GitHub Pages deployment
 
-Before the first deployment, set the source under repository Settings → Pages to **GitHub Actions**. The `Deploy GitHub Pages` workflow then builds the site for this repository's `/tools/` project path and publishes the `dist/` directory on each push to `main`; the generated `404.html` keeps tool URLs working on refresh.
+The live site is at <https://rajib-alt.github.io/tools/>. Set the source under repository Settings → Pages to **GitHub Actions**. The `Deploy GitHub Pages` workflow builds the site for this repository's `/tools/` project path and publishes the `dist/` directory on each push to `main`; the generated `404.html` keeps tool URLs working on refresh.
 
 ## Cloudflare Pages deployment
 
